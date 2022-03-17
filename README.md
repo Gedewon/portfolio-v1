@@ -8,6 +8,27 @@
 -HTML
 -CSS
 
+## Installation Guidelines
+
+if you installed git run 
+
+```
+ git clone https://github.com/Gedewon/portfolio-v1.git
+```
+
+or download a ZIP of all the files directly.
+
+once the files are on your machine,open the folder in your code editor 
+and run 
+
+```
+npm install 
+
+```
+
+open the index.html file on your favourite browser
+
+
 ## Author
 
 👤 
