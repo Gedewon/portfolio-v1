@@ -11,10 +11,6 @@ main {
   padding-top: 75px;
 }
 
-header nav button {
-  margin-right: 20px;
-}
-
 button:enabled {
   background: none;
   color: #396df2;
@@ -258,22 +254,22 @@ nav ul li {
 }
 
 .img-one {
-  background: url("../Images/space-travelers-hub-preview.png");
+  background: url("../Images/Snapshoot\ Portfolio.png");
   background-size: cover;
 }
 
 .img-two {
-  background: url("https://user-images.githubusercontent.com/34578631/150406323-95869d53-2b47-49b6-aceb-d4e0535c78da.png");
+  background: url("../Images/Snapshoot\ Portfolio\ \(1\).png");
   background-size: cover;
 }
 
 .img-three {
-  background: url("https://user-images.githubusercontent.com/34578631/148931488-5eab3eda-20c9-4937-ab6a-35a2deb24b44.png");
+  background: url("../Images/Snapshoot\ Portfolio\ \(2\).png");
   background-size: cover;
 }
 
 .img-four {
-  background: url("../Images/work-img-four.jpeg");
+  background: url("../Images/Snapshoot\ Portfolio\ \(3\).png");
   background-size: cover;
 }
 
@@ -589,22 +585,22 @@ form textarea {
   }
 
   .img-one {
-    background: url("../Images/space-travelers-hub-preview.png");
+    background: url("../Images/Snapshoot\ Portfolio.png");
     background-size: cover;
   }
 
   .img-two {
-    background: url("https://user-images.githubusercontent.com/34578631/150406323-95869d53-2b47-49b6-aceb-d4e0535c78da.png");
+    background: url("../Images/Snapshoot\ Portfolio\ \(1\).png");
     background-size: cover;
   }
 
   .img-three {
-    background: url("https://user-images.githubusercontent.com/34578631/148931488-5eab3eda-20c9-4937-ab6a-35a2deb24b44.png");
+    background: url("../Images/Snapshoot\ Portfolio\ \(2\).png");
     background-size: cover;
   }
 
   .img-four {
-    background: url("../Images/work-img-four.jpeg");
+    background: url("../Images/Snapshoot\ Portfolio\ \(3\).png");
     background-size: cover;
   }
 
