@@ -752,3 +752,36 @@ form small {
   color: red;
   font-size: 15px;
 }
+
+.contact-me-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-t {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.contact-m {
+  margin: 28px;
+  text-align: center;
+}
+
+.input {
+  width: 327px;
+  margin-bottom:  20px;
+  height: 48px;
+  border-radius: 8px;
+  border-color: #CFD8DC;
+}
+
+.textarea {
+  height: 170px;
+}
+
+.button-submit {
+  align-self: left;
+}
