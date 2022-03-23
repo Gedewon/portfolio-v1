@@ -301,13 +301,23 @@
           </ul>
         </div>
       </section>
-      <section class="contact-me-form">
-        <h2 class="contact-t">Contact me</h2>
-        <p class="contact-m">if you have an application you are intersted in developing, a feature that you need build or a project that needs coding.I'd love to help with it</p>
-        <input class="input" type="text" id="name" name="user_name">
-        <input class="input" type="email" id="email" name="user_email">
-        <textarea class="input textarea" name="user_msg" id="msg">Write your message here.</textarea>
-        <button class="button-submit get-my-resume-btn" type="submit" id="button">Get it Touch</button>
+      <section id="contact-form">
+        <div class="contact-text">
+          <h2>Contact me</h2>
+          <p>
+              If you have an application you are interested in 
+              developing, a feature that you need built or a project 
+              that needs coding. I’d love to help with it 
+          </p>
+      </div>
+      <form id="myForm" class="form" action="https://formspree.io/f/mvolayko" method="post">
+          <input  name="name" id="fullName" type="text" placeholder="Full name" maxlength="30" required>
+          <input  name="Email" id="email" type="email" placeholder="Email address" required>
+          <textarea  name="text-area" id="comment" placeholder="Write your message here" cols="30" rows="6" maxlength="500" required></textarea>
+          <small></small>
+          <button class="get-it-touch-btn">Get It Touch</button>
+        </form>
+        <div id="footer-style"></div>
       </section>
     </main>
   </body>
