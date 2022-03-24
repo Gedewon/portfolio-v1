@@ -415,15 +415,13 @@ nav ul li {
   flex-direction: column;
   background: url("../Images/contact-form-shapes-mobile.svg");
   background-repeat: no-repeat;
-  /* background-size: cover; */
   background-position: right;
   background-color: #5161f1;
   padding: 60px 50px;
   border-top-left-radius: 80px;
   text-align: center;
   align-items: center;
-  position:relative;
-  
+  position: relative;
 }
 
 .form {
@@ -522,16 +520,13 @@ form textarea {
   }
 }
 
-#footer-style{
-  position:absolute;
-  background-color:black;
-  width:134px;
-  height:5px;
+#footer-style {
+  position: absolute;
+  background-color: black;
+  width: 134px;
+  height: 5px;
   bottom: 8px;
   border-radius: 10px;
-
-
-
 }
 
 @media screen and (min-width: 995px) {
@@ -787,7 +782,7 @@ form small {
 
 .input {
   width: 327px;
-  margin-bottom:  20px;
+  margin-bottom: 20px;
   height: 48px;
   border-radius: 8px;
   border-color: #cfd8dc;
@@ -795,8 +790,4 @@ form small {
 
 .textarea {
   height: 170px;
-}
-
-.button-submit {
-  align-self: left;
 }
