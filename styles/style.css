@@ -415,12 +415,13 @@ nav ul li {
   flex-direction: column;
   background: url("../Images/contact-form-shapes-mobile.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: right;
   background-color: #5161f1;
   padding: 60px 50px;
   border-top-left-radius: 80px;
   text-align: center;
   align-items: center;
+  position: relative;
 }
 
 .form {
@@ -517,6 +518,15 @@ form textarea {
   .project-detail-article {
     margin: 70px 120px;
   }
+}
+
+#footer-style {
+  position: absolute;
+  background-color: black;
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 995px) {
@@ -751,4 +761,33 @@ form textarea {
 form small {
   color: red;
   font-size: 15px;
+}
+
+.contact-me-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-t {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.contact-m {
+  margin: 28px;
+  text-align: center;
+}
+
+.input {
+  width: 327px;
+  margin-bottom: 20px;
+  height: 48px;
+  border-radius: 8px;
+  border-color: #cfd8dc;
+}
+
+.textarea {
+  height: 170px;
 }
