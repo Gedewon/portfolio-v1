@@ -7,6 +7,7 @@ This is basically about understand how to parse a Figma design to create a UI an
 
 
 
+![screencapture-file-home-g360-Desktop-portfolio-v1-index-html-2022-03-25-20_05_06](https://user-images.githubusercontent.com/56429354/160211155-cfe94359-f873-4690-9b24-be9c3ce7bcb8.png)
 
 
 
