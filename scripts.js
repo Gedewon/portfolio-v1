@@ -1,4 +1,5 @@
-const hamburger = document.querySelector('.mobile-menu-list');
+
+const hamburger = document.querySelector('.hamburger-btn');
 const dropdown = document.querySelector('.mobile-menu');
 const close = document.querySelector('.close-button');
 
@@ -7,5 +8,5 @@ hamburger.addEventListener('click', function(){
 }) 
 
 close.addEventListener('click', function(){
-  dropdown.classList.remove('hide');
+  dropdown.classList.add('hide');
 }) 
