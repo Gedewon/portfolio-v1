@@ -67,10 +67,22 @@ nav ul {
   left: 0;
   bottom: 0;
   right: 0;
-  background: #1d2fd5;
+  background: rgba(29, 47, 213, 0.7);
+  backdrop-filter: blur(6px);
   /* transition: 200ms ease-in-out;
   transform: scale(0); */
   z-index: 10;
+}
+
+.mobile-menu-line {
+  position: absolute;
+  background-color: black;
+  width: 134px;
+  height: 5px;
+  bottom: 24px;
+  border-radius: 10px;
+  left: calc(50% - 67px);
+  right: calc(50% - 67px);
 }
 
 .project-detail-article {
