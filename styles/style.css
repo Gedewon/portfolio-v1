@@ -8,12 +8,13 @@ body {
 
 main {
   background: #f7f7f9;
-  padding-top: 75px;
+  padding-top: 102px;
 }
 
 button:enabled {
   background: none;
   color: #396df2;
+  border:none;
 }
 
 button:hover {
@@ -33,7 +34,7 @@ button:disabled {
 
 header {
   position: fixed;
-  width: 95vw;
+  width: 90vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,8 +70,8 @@ nav ul {
   right: 0;
   background: rgba(29, 47, 213, 0.7);
   backdrop-filter: blur(6px);
-  /* transition: 200ms ease-in-out;
-  transform: scale(0); */
+  transition: 200ms ease-in-out;
+  transform: scale(0);
   z-index: 10;
 }
 
