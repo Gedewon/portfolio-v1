@@ -14,7 +14,7 @@ main {
 button:enabled {
   background: none;
   color: #396df2;
-  border:none;
+  border: none;
 }
 
 button:hover {
