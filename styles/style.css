@@ -8,7 +8,7 @@ body {
 
 main {
   background: #f7f7f9;
-  padding-top: 102px;
+  padding-top: 75px;
 }
 
 button:enabled {
@@ -34,7 +34,7 @@ button:disabled {
 
 header {
   position: fixed;
-  width: 90vw;
+  width: 95vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
