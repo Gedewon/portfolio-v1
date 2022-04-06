@@ -48,7 +48,7 @@ const projectDetail = document.querySelector('.project-detail');
 
 const projects = [
   {
-    id: 1,
+    id: '1',
     name: 'Tonic',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     featured_image: './Images/work-one-img.jpg',
@@ -58,7 +58,7 @@ const projects = [
     name_detail: ['CANOPY', 'Back End Dev', '2015'],
   },
   {
-    id: 2,
+    id: '2',
     name: 'Multi-Post Stories',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     featured_image: './Images/work-two-img.jpg',
@@ -68,7 +68,7 @@ const projects = [
     name_detail: ['CANOPY', 'Back End Dev', '2015'],
   },
   {
-    id: 3,
+    id: '3',
     name: 'Tonic',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     featured_image: './Images/work-three-img.jpg',
@@ -78,7 +78,7 @@ const projects = [
     name_detail: ['CANOPY', 'Back End Dev', '2015'],
   },
   {
-    id: 4,
+    id: '4',
     name: 'Multi-Post Stories',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     featured_image: './Images/work-four-img.jpg',
