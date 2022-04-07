@@ -168,7 +168,7 @@ function validateEmail(input, invalidMsg) {
   if (!hasValue(input, invalidMsg)) {
     return false;
   }
-  const emailRegex = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+  const emailRegex = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})*(\.[a-z]{0,2})*$/;
 
   const email = input.value.trim();
   if (!emailRegex.test(email)) {
