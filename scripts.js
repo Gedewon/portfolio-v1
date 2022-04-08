@@ -188,17 +188,21 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-// const dataStored = document.form.querySelectorAll('#fullName, #email, #comment');
-const dataStorage = {};
+const inputElements = document.querySelectorAll('#fullName, #email, #comment');
 
-dataStored.addEventListener('change', storeData());
+(() => {
+  const lookUpTable = {
+    0: 'fullName',
+    1: 'email',
+    2: 'comment',
+  };
+  if (localStorage.length > 0) {
+    for (let i = 0; i < inputElements.length; i += 1) {
+      inputElements[i].value = localStorage.getItem(lookUpTable[i.toString()]);
+    }
+  }
+})();
 
-function storeData(){
-  let fullName = document.querySelector('#fullName').value;
-  let email = document.querySelector('#email').value;
-  let comment = document.querySelector('#comment').value;
-  localStorage.setItem('Full Name:', fullName);
-  localStorage.setItem('Email Adress:', email);
-  localStorage.setItem('Comment:', comment);
-}
-
+inputElements.forEach((el) => el.addEventListener('change', (e) => {
+  localStorage.setItem(e.target.id, e.target.value);
+}));
