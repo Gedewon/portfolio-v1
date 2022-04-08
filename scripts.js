@@ -187,3 +187,18 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+// const dataStored = document.form.querySelectorAll('#fullName, #email, #comment');
+const dataStorage = {};
+
+dataStored.addEventListener('change', storeData());
+
+function storeData(){
+  let fullName = document.querySelector('#fullName').value;
+  let email = document.querySelector('#email').value;
+  let comment = document.querySelector('#comment').value;
+  localStorage.setItem('Full Name:', fullName);
+  localStorage.setItem('Email Adress:', email);
+  localStorage.setItem('Comment:', comment);
+}
+
