@@ -49,13 +49,13 @@ const projectDetail = document.querySelector('.project-detail');
 const projects = [
   {
     id: '1',
-    name: 'Tonic',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    featured_image: './Images/work-one-img.jpg',
-    link_to_live: ['See live', './Images/detailProjectLive.png'],
-    link_to_source: ['See source', './Images/detailProjectGit.png'],
-    technologies: ['html', 'css', 'javaScript'],
-    name_detail: ['CANOPY', 'Back End Dev', '2015'],
+    name: 'EFoye',
+    description: "Efoye is a E-commerce web application where users can register and buy baby bed's.Logged-in users can also interact with other parents and post and read from the community forum.Build with JavaScript ,React and Context .",
+    featured_image: './Images/LivePortfolio/Efoye.png',
+    link_to_live: ['See live', './Images/detailProjectLive.png','https://iot-bbms-development.web.app/landing-page'],
+    link_to_source: ['See source', './Images/detailProjectGit.png','https://github.com/Efoye-team/Web-app'],
+    technologies: ['react','react-router','react-context'],
+    name_detail: ['Efoye', 'Full Stack Dev', '2015'],
   },
   {
     id: '2',
@@ -74,8 +74,8 @@ const projects = [
     featured_image: './Images/work-three-img.jpg',
     link_to_live: ['See live', './Images/detailProjectLive.png'],
     link_to_source: ['See source', './Images/detailProjectGit.png'],
-    technologies: ['html', 'css', 'javaScript'],
-    name_detail: ['CANOPY', 'Back End Dev', '2015'],
+    technologies: ['html', 'css', 'javaScript','react','react-router','react-context'],
+    name_detail: ['EFOYE', 'FULL STACK DEV', '2020'],
   },
   {
     id: '4',
@@ -111,7 +111,7 @@ projectDetails.forEach((button) => {
             </ul>
           </div>
         <div class="work-img">
-          <img src=${selectedProject.featured_image} alt="Picture for the project Tonic, showing a laptop and a widescreen." />
+          <img class="work-img" src=${selectedProject.featured_image} alt="Picture for the project Tonic, showing a laptop and a widescreen." />
         </div>
         <div class="work-description-project project-detail-work-description">
           <p>
@@ -124,10 +124,10 @@ projectDetails.forEach((button) => {
             <li><button type="button">${selectedProject.technologies[2]}</button></li>
           </ul>
           <div class="project-detail-buttons">
-              <a href="https://Gedewon.github.io/Portfolio/"><button class="see-project-btn see-source">${selectedProject.link_to_live[0]}
+              <a href=${selectedProject.link_to_live[2]}><button class="see-project-btn see-source">${selectedProject.link_to_live[0]}
                 <img class="see-source-img" src=${selectedProject.link_to_live[1]} alt="" /></button>
               </a>
-              <a href="https://github.com/Gedewon/Portfolio"><button class="see-project-btn see-source">${selectedProject.link_to_source[0]}
+              <a href=${selectedProject.link_to_source[2]}><button class="see-project-btn see-source">${selectedProject.link_to_source[0]}
                 <img class="see-source-img" src=${selectedProject.link_to_source[1]} alt="" /></button>
               </a>
           </div>
